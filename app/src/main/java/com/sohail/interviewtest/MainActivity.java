@@ -1,5 +1,6 @@
 package com.sohail.interviewtest;
 
+import android.app.ActionBar;
 import android.content.Intent;
 import android.support.v4.app.ActivityOptionsCompat;
 import android.support.v4.view.ViewCompat;
@@ -27,6 +28,8 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        android.support.v7.app.ActionBar actionBar = getSupportActionBar();
+        actionBar.setBackgroundDrawable(getResources().getDrawable(R.drawable.gradient));
         rv= findViewById(R.id.addList);
         secondList=findViewById(R.id.secondList);
         thirdList=findViewById(R.id.thirdList);
@@ -37,7 +40,7 @@ public class MainActivity extends AppCompatActivity {
         arrayList.add("Mutton Biryani");
         arrayList.add("chicken Biryani");
         arrayList.add("Kebab roll");
-        arrayList.add("Tikka roll");
+        arrayList.add("Tikka roll1");
         arrayList.add("Donut");
 
         //second list data

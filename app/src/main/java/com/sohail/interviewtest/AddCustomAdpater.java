@@ -1,7 +1,9 @@
 package com.sohail.interviewtest;
 
 import android.content.Context;
+import android.graphics.Color;
 import android.support.annotation.NonNull;
+import android.support.v7.widget.CardView;
 import android.support.v7.widget.RecyclerView;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -41,6 +43,7 @@ public class AddCustomAdpater extends RecyclerView.Adapter<AddCustomAdpater.View
 
         holder.titleTxt.setText(arrayList.get(position));
 
+
     }
 
 
@@ -53,11 +56,13 @@ public class AddCustomAdpater extends RecyclerView.Adapter<AddCustomAdpater.View
 
         ImageView cardImg;
         TextView titleTxt;
+        CardView card;
         public ViewHolder(View itemView) {
             super(itemView);
 
             cardImg= itemView.findViewById(R.id.cardImg);
             titleTxt= itemView.findViewById(R.id.titleTxt);
+            card=itemView.findViewById(R.id.card);
         }
     }
 

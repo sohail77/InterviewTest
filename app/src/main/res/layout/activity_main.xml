@@ -4,7 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:background="#FFFAFA">
 
     <LinearLayout
         android:layout_width="match_parent"
@@ -24,9 +25,11 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/it_s_raining"
-        android:textColor="#000"
+        android:textColor="#3B3A3B"
         android:layout_margin="10dp"
-        android:textSize="25sp"/>
+        android:textSize="35sp"
+        android:textStyle="normal"
+        android:fontFamily="@font/font"/>
     
     <LinearLayout
         android:layout_width="match_parent"
@@ -38,7 +41,9 @@
             android:layout_height="wrap_content"
             android:text="@string/we_suggest_you_order_these"
             android:layout_margin="10dp"
-            android:textSize="15sp"/>
+            android:textSize="20sp"
+            android:textColor="#5A5758"
+            android:fontFamily="@font/font"/>
 
         <TextView
             android:layout_width="match_parent"
@@ -48,6 +53,7 @@
             android:layout_margin="10dp"
             android:textSize="15sp"
             android:textColor="@android:color/holo_red_dark"
+            android:fontFamily="@font/font"
             />
 
 
@@ -72,7 +78,9 @@
             android:layout_height="wrap_content"
             android:text="@string/ongoing_offers"
             android:layout_margin="10dp"
-            android:textSize="15sp"/>
+            android:textColor="#5A5758"
+            android:textSize="20sp"
+            android:fontFamily="@font/font"/>
 
         <TextView
             android:layout_width="match_parent"
@@ -82,6 +90,7 @@
             android:layout_margin="10dp"
             android:textSize="15sp"
             android:textColor="@android:color/holo_red_dark"
+            android:fontFamily="@font/font"
             />
 
 
@@ -106,7 +115,9 @@
             android:layout_height="wrap_content"
             android:text="@string/extraa_offers"
             android:layout_margin="10dp"
-            android:textSize="15sp"/>
+            android:textSize="20sp"
+            android:textColor="#5A5758"
+            android:fontFamily="@font/font"/>
 
         <TextView
             android:layout_width="match_parent"
@@ -116,6 +127,7 @@
             android:layout_margin="10dp"
             android:textSize="15sp"
             android:textColor="@android:color/holo_red_dark"
+            android:fontFamily="@font/font"
             />
 
 
@@ -140,7 +152,9 @@
             android:layout_height="wrap_content"
             android:text="@string/extraa_offers2"
             android:layout_margin="10dp"
-            android:textSize="15sp"/>
+            android:textSize="20sp"
+            android:textColor="#5A5758"
+            android:fontFamily="@font/font"/>
 
         <TextView
             android:layout_width="match_parent"
@@ -150,6 +164,7 @@
             android:layout_margin="10dp"
             android:textSize="15sp"
             android:textColor="@android:color/holo_red_dark"
+            android:fontFamily="@font/font"
             />
 
 

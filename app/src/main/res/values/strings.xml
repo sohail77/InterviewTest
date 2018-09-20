@@ -2,7 +2,7 @@
     <string name="app_name">Interview Test</string>
     <string name="location_displayed_here">location displayed here</string>
     <string name="stopTxt">Stop</string>
-    <string name="it_s_raining">It\'s Raining</string>
+    <string name="it_s_raining">It\'s raining!</string>
     <string name="we_suggest_you_order_these">We suggest you order these</string>
     <string name="see_all">See all</string>
     <string name="ongoing_offers">Ongoing Offers</string>
@@ -12,7 +12,7 @@
     <string name="extraa_offers2">Extraa Offers</string>
     <string name="see_all4">See all</string>
     <string name="location">Location</string>
-    <string name="offer_name">Offer Name</string>
+    <string name="offer_name">OFFER NAME</string>
     <string name="sub_discription">Sub Discription</string>
     <string name="mutton_biryani">Mutton Biryani</string>
     <string name="pista_house">pista house</string>
